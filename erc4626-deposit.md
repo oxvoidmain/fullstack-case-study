@@ -1,4 +1,4 @@
-# Deposit Function Case Study
+# Deposit Function Exercise
 
 Initialize a new Bun project with `bun init -y`, install `viem`, and paste the following code into `index.ts`. Your goal is to finish the `deposit` function so it correctly deposits into an ERC-4626-compliant vault.
 
