@@ -1,6 +1,8 @@
 # Deposit Function Exercise
 
-Initialize a new Bun project with `bun init -y`, install `viem`, and paste the following code into `index.ts`. Your goal is to finish the `deposit` function so it correctly deposits into an ERC-4626-compliant vault.
+Initialize a new Bun project with `bun init -y`, install `viem`, and paste the following code into `index.ts`. 
+Your goal is to finish the `deposit` function so it correctly deposits into an ERC-4626-compliant vault.
+Please also include a test file that tests for each error with 100% coverage using `bun test --coverage`.
 
 ```ts
 import type { PublicClient } from "viem";
