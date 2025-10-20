@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+@layer components {
+  .kiln-logo {
+    @apply text-2xl font-bold text-black;
+  }
+  
+  .kiln-logo .k {
+    @apply text-kiln-orange;
+  }
+}
